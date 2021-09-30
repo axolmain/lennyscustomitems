@@ -1,0 +1,50 @@
+name: lennyscustomitems	
+version: 1.0
+author: lennylion321
+main: lennys.custom.items.TestItem
+api-version: 1.16
+commands:
+  giveyoyo:
+    description: Gives you a shiny stick
+    usage: /<command> 
+  giverod:
+    description: Gives you a shiny rod
+    usage: /<command>
+  giverainbow:
+    description: Gives you a shiny bow
+    usage: /<command>
+  givemjolnir:
+    description: Thors hammer
+    usage: /<command>
+  givezeus:
+    description: Zeus's lightning bolts
+    usage: /<command>
+  givetrident:
+    description: Poseidon's trident
+    usage: /<command>
+  livemap:
+    description: Shows Dynmap
+    usage: /<command>
+  discord:
+    description: Link for discord
+    usage: /<command>
+  store:
+    description: Our website
+    usage: /<command>
+
+permissions:
+  lennyscustomitems.gon:
+    description: Gives the user Gons perms
+    default: op
+  lennyscustomitems.killua:
+    description: Gives the user Killua perms
+    default: op
+  lennyscustomitems.pokkle:
+    description: Gives the user Pokkle perms
+    default: op
+  lennyscustomitems.admin:
+    description: Gives the user admin rights
+    default: op
+  lennyscustomitems.flight:
+    description: Gives the user flight
+    default: op
