@@ -17,19 +17,19 @@ commands:
     description: Thors hammer
     usage: /<command>
   givezeus:
-    description: Zeus's lightning bolts
+    description: Zeus's lightning bolts #Doesn't work properly
     usage: /<command>
   givetrident:
-    description: Poseidon's trident
+    description: Poseidon's trident #Doesn't work properly
     usage: /<command>
   livemap:
-    description: Shows Dynmap
+    description: Shows Dynmap #Doesn't work properly
     usage: /<command>
   discord:
-    description: Link for discord
+    description: Link for discord #Doesn't work properly
     usage: /<command>
   store:
-    description: Our website
+    description: Our website #Doesn't work properly
     usage: /<command>
 
 permissions:
