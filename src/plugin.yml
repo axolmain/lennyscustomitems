@@ -1,7 +1,7 @@
 name: lennyscustomitems	
 version: 1.0
 author: lennylion321
-main: lennys.custom.items.TestItem
+main: TestItem
 api-version: 1.16
 commands:
   giveyoyo:

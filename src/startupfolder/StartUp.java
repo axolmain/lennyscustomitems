@@ -1,4 +1,4 @@
-package lennys.custom.items;
+package startupfolder;
 
 import events.*;
 import org.bukkit.ChatColor;
@@ -7,10 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import commands.CIcommands;
 import items.ItemManager;
 
-import java.util.HashMap;
-import java.util.Map;
-
-public class TestItem extends JavaPlugin {
+public class StartUp extends JavaPlugin {
 	// Fired when plugin is first enabled
 
 	@Override
@@ -18,7 +15,7 @@ public class TestItem extends JavaPlugin {
 		getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[lennyscustomitems]: lennys buggy items are enabled");
 		ItemManager.init();
 		CIcommands commands = new CIcommands();
-		getServer().getPluginManager().registerEvents(new ItemEvents(), this);
+		getServer().getPluginManager().registerEvents(new KilluasYoyo(), this);
 		getCommand("giveyoyo").setExecutor(commands);
 		getServer().getPluginManager().registerEvents(new GonsRodEvents(), this);
 		getCommand("giverod").setExecutor(commands);

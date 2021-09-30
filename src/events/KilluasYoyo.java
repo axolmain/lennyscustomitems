@@ -10,7 +10,7 @@ import items.ItemManager;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
-public class ItemEvents implements Listener {
+public class KilluasYoyo implements Listener {
 	
 	@EventHandler
 	public static void onRightClick(PlayerInteractEvent event) {
